@@ -6,7 +6,7 @@ import '../Header/Header.css';
 const Header = () => {
   return (
     <header>
-      <h1>Harold Gonzales</h1>
+      <h1>Daniel Boddicker</h1>
       <Navigation />
     </header>
   );

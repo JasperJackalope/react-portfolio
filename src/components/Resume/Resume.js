@@ -1,18 +1,19 @@
 import React from 'react';
 import './Resume.css';
 // Add my resume ici
-// import haroldresume from '../../images/HAROLD_RESUME.pdf';
+import DBresume from '../../images/DBresumeMay2023.pdf';
+// Rewrite my skills section
 
 const Resume = () => {
   return (
     <section className="resume">
       <h2>Resume</h2>
-      {/* <a className="download-resume" href={haroldresume} download>
-        Download my Resume
-      </a> */}
-      <h3>Proficiencies</h3>
+      <a className="download-resume" href={DBresume} download>
+        Download My Resume Here
+      </a>
+      <h3>Full Stack Development</h3>
       <ul>
-        <li>Front-end Development Proficiency:</li>
+        <li>Front-end Proficiencies</li>
       </ul>
       <ul>
         <li>

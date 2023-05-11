@@ -1,24 +1,16 @@
 import React from 'react';
 import './AboutMe.css';
-// TODO: Add my picture.
-// import haroldpictm2 from '../../images/haroldpictm2.jpg';
+import headshotDB from '../../images/headshotDB.JPG';
 
 const AboutMe = () => {
   return (
     <section className="about-me">
       <h2>About Me</h2>
       <div className="about-me-content">
-        {/* Link my Image here */}
-        {/* <img src={haroldpictm2} alt="Daniel Boddicker" /> */}
+        <img src={headshotDB} alt="Daniel Boddicker" />
         <div>
-          <p>
-            {/* Add my bio. */}
-            My bio goes here.
-          </p>   
-          <p>
-            Write to a similar message: Thank you for Visiting this site. You will find more about and my accomplishments during my Full Stack Development Trainining in UCLA Extension.
-            I am happy to showcase my amazing journey of coding/training with the help of my class instructors, tutors and my collegues. 
-          </p>
+          <p>I was born and raised in the Black Hills of South Dakota and have been based in Los Angeles for the past ten years. After a successful career in the film and television industry, I decicded to take the risk and change paths and become a web developer and coder. I am a recent gradutate of the UCLA Extension Coding Bootcamp and am looking for my next opportunity.</p>   
+          <p>Thank you for visiting my website. Here you can more information about my skills as a Full-Stack Developer along with samples of my work.</p>
         </div>
       </div>
     </section>

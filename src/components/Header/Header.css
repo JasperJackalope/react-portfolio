@@ -4,10 +4,11 @@
     align-items: center;
     background-color: #333;
     padding: 1rem;
+    color: #0A3584;
   }
   
   .header h1 {
-    color: #fff;
+    color: #0A3584;
     margin: 0;
   }
   

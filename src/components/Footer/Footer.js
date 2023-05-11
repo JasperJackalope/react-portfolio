@@ -6,25 +6,18 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-links">
         <a
-          href="https://github.com/harold-fv"
+          href="https://github.com/JasperJackalope"
           target="_blank"
           rel="noopener noreferrer"
         >
           GitHub
         </a>
         <a
-          href="https://www.linkedin.com/in/harold-gonazales-24284a4b"
+          href="https://www.linkedin.com/in/daniel-boddicker-a0096b121/"
           target="_blank"
           rel="noopener noreferrer"
         >
           LinkedIn
-        </a>
-        <a
-          href="https://stackoverflow.com/users"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Stack Overflow
         </a>
       </div>
     </footer>
