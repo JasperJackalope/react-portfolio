@@ -1,19 +1,21 @@
 import React from 'react';
 import Project from '../Project/Project';
-import prj1 from '../../images/prj1.jpg';
-import prj2 from '../../images/prj2.jpg';
-import prj3 from '../../images/prj3.jpg';
-import prj4 from '../../images/prj4.jpg';
+// 
+// import prj1 from '../../images/prj1.jpg';
+// import prj2 from '../../images/prj2.jpg';
+// import prj3 from '../../images/prj3.jpg';
+// import prj4 from '../../images/prj4.jpg';
 import './Portfolio.css'; // import the CSS file
 
 const Portfolio = () => {
   // Actual projects data
+  // Add my prtojects here:
   const projects = [
-    { title: 'Project 1', imageUrl: prj1, deployedUrl: 'https://github.com/harold-fv/Tech-Blog', repoUrl: 'https://github.com/harold-fv/Tech-Blog' },
-    { title: 'Project 2', imageUrl: prj2, deployedUrl: 'https://github.com/harold-fv/Social-Network-API', repoUrl: 'https://github.com/harold-fv/Social-Network-API' },
-    { title: 'Project 3', imageUrl: prj3, deployedUrl: 'https://github.com/harold-fv/Employee-Tracker', repoUrl: 'https://github.com/harold-fv/Employee-Tracker' },
-    { title: 'Project 4', imageUrl: prj4, deployedUrl: 'https://github.com/harold-fv/project2-foodcritics', repoUrl: 'https://github.com/harold-fv/project2-foodcritics' },
-    // ...
+    // { title: 'Project 1', imageUrl: prj1, deployedUrl: 'https://github.com/harold-fv/Tech-Blog', repoUrl: 'https://github.com/harold-fv/Tech-Blog' },
+    // { title: 'Project 2', imageUrl: prj2, deployedUrl: 'https://github.com/harold-fv/Social-Network-API', repoUrl: 'https://github.com/harold-fv/Social-Network-API' },
+    // { title: 'Project 3', imageUrl: prj3, deployedUrl: 'https://github.com/harold-fv/Employee-Tracker', repoUrl: 'https://github.com/harold-fv/Employee-Tracker' },
+    // { title: 'Project 4', imageUrl: prj4, deployedUrl: 'https://github.com/harold-fv/project2-foodcritics', repoUrl: 'https://github.com/harold-fv/project2-foodcritics' },
+    // // ...
   ];
 
   return (

@@ -1,14 +1,15 @@
 import React from 'react';
 import './Resume.css';
-import haroldresume from '../../images/HAROLD_RESUME.pdf';
+// Add my resume ici
+// import haroldresume from '../../images/HAROLD_RESUME.pdf';
 
 const Resume = () => {
   return (
     <section className="resume">
       <h2>Resume</h2>
-      <a className="download-resume" href={haroldresume} download>
+      {/* <a className="download-resume" href={haroldresume} download>
         Download my Resume
-      </a>
+      </a> */}
       <h3>Proficiencies</h3>
       <ul>
         <li>Front-end Development Proficiency:</li>
