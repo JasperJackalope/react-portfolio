@@ -1,10 +1,10 @@
 .nav {
     display: flex;
-    justify-content: flex-end; /* Change from space-around to flex-end to align items to the right */
+    justify-content: flex-end;
     align-items: center;
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 10px;
   }
   
   .nav ul {
@@ -22,5 +22,5 @@
   
   .nav-item:hover,
   .nav-item.active {
-    color: #ccc;
+    color: #e9cdcd;
   }

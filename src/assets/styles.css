@@ -10,8 +10,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #7BA6F5;
-    padding: 20px 50px;
+    background-color: #352009;
+    padding: 10px 10px 0 0;
   }
   
   nav a {
@@ -23,10 +23,10 @@ body {
   
   nav a:hover {
     color: #fff;
-    background-color: #333;
+    /* background-color: #333; */
   }
   
-  /* styles for the main content area */
+  /* styles for the main content area581c0 */
   main {
     margin: 20px;
   }
@@ -40,12 +40,13 @@ body {
   header h1 {
     font-size: 48px;
     margin: 0;
-    color: #0A3584;
+    color: #581c0c;
+    font-weight: bolder;
   }
   
   /* styles for the footer */
   footer {
-    background-color: #7BA6F5;
+    background-color: #352009;
     color: #fff;
     text-align: center;
     padding: 20px;
@@ -66,7 +67,7 @@ body {
   }
 
   .App {
-    background-color: #F5CA7B;
+    background-color: #a78366;
     color: black;
     min-height: 100vh;
     display: flex;
