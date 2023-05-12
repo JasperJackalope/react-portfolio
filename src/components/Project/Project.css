@@ -1,15 +1,17 @@
 .project {
-    width: 50%;
-    padding: 10px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .project-image {
-    width: 100%;
-  }
+  width: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project img {
+  max-width: 100%;
+  height: 100%;
+}
+
   
   h3 {
     font-size: 1em;
@@ -21,7 +23,7 @@
     position: absolute;
     margin-top: 13.7%;
     color: white;
-    background-color: #70A9FF;
+    background-color: #62615d;
     width: fit-content;
     text-align: center;
     border-radius: 0 5px 0 0;
@@ -32,7 +34,7 @@
   .secondary {
     width: 200%;
     height: 30vh;
-    background-color: rgb(148, 218, 250);
+    background-color: #581c0c;
     border-radius: 10px;
     transition: 200ms;
   }
@@ -48,4 +50,16 @@
     cursor: pointer;
     padding-left: 20px;
     transition: 200ms;
+  }
+
+  .project-links {
+    margin-top: 35px;
+  }
+
+  .project-links a {
+    color: black;
+  }
+
+  .project-links a:hover {
+    color: #e9cdcd;
   }

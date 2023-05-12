@@ -3,12 +3,11 @@
     justify-content: space-between;
     align-items: center;
     background-color: #333;
-    margin: 100px;
+    padding: 1rem;
     color: #581c0c;
   }
   
   .header h1 {
     color: #0A3584;
-    margin: 100px;
   }
   
