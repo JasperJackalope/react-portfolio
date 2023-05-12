@@ -19,6 +19,13 @@ const Footer = () => {
         >
           LinkedIn
         </a>
+        <a
+          href="https://www.instagram.com/danicdepression//"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Instagram
+        </a>
       </div>
     </footer>
   );
