@@ -10,8 +10,7 @@ This is a React-based application website and portfolio that allows potential em
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [Tests](#tests)
-- [Questions](#questions)
+- [Additional Information](#additional-information)
 
 ## License
 
