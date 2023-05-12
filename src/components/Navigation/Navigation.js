@@ -12,7 +12,7 @@ function NavigationBar() {
           <a className="nav-item" href="/portfolio">Portfolio</a> {/* Add the class name to the anchor */}
         </li>
         <li>
-          <a className="nav-item" href="/resume">Resume</a> {/* Add the class name to the anchor */}
+          <a className="nav-item" href="/resume">Resumé</a> {/* Add the class name to the anchor */}
         </li>
         <li>
           <a className="nav-item" href="/contact">Contact</a> {/* Add the class name to the anchor */}

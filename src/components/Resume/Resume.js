@@ -7,37 +7,32 @@ import DBresume from '../../images/DBresumeMay2023.pdf';
 const Resume = () => {
   return (
     <section className="resume">
-      <h2>Resume</h2>
       <a className="download-resume" href={DBresume} download>
         Download My Resume Here
       </a>
-      <h3>Full Stack Development</h3>
+      <h2>Experience</h2>
+      <h3>Full Stack Development Highlights</h3>
       <ul>
-        <li>Front-end Proficiencies</li>
+        <h4>Front-end Proficiencies</h4>
+        <li>HTML, CSS, JavaScript, React, Bootstrap, amongst others.</li>
+        <li>Experience in responsive web design that can be used across all devices.</li>
+        <h4>Back-end Proficiencies</h4>
+        <li>Building secure, server-side applications using Node.js, Express.js, and in Python.</li>
+        <li>Building and executing APIs for front-end use, including GraphQL integration.</li>
+        <li>Database creation and management, with experiece in relational and NoSQL databases along with MySQL and MongoDB.</li>
+        <li>Authentication protocols including OAuth and JWT.</li>
+        <li>Modern development techniques and methods, such as Git, Agile, and test-driven development.</li>
       </ul>
+      <h3>Additional Experience</h3>
       <ul>
-        <li>
-      Proficient in building interactive, user-friendly interfaces using JavaScript, React.js, and Redux.
-Strong understanding of front-end web technologies including HTML5, CSS3, and JavaScript ES6+.
-Experienced in responsive web design to ensure websites render well across various devices.
-Proficient in using modern development tools and methodologies, such as version control with Git, Agile methodologies, and test-driven development.
-Skilled in optimizing web performance and implementing SEO best practices.
-Experienced in working with RESTful APIs and GraphQL to integrate front-end applications with back-end services.
-      </li>
-      </ul>
-      <ul>
-        <li>Back-end Development Proficiency:</li>
-      </ul>
-      <ul>
-        <li>
-        Proficient in building scalable, secure server-side applications using Node.js and Express.js.
-Experienced in developing RESTful APIs and GraphQL APIs for front-end consumption.
-Strong understanding of relational databases and NoSQL databases, including experience with MySQL, PostgreSQL, and MongoDB.
-Proficient in authentication and authorization protocols, such as OAuth and JWT.
-Skilled in using Docker for containerization and Kubernetes for orchestration.
-Proficient in designing and implementing microservices architecture.
-Experienced in using modern development tools and methodologies, such as version control with Git, Agile methodologies, and test-driven development.
-      </li>
+        <h4>Skills</h4>
+        <li>Seasoned Office Administrator and Manager.</li>
+        <li>Accounting, Payroll, and Accounts Receivable Management.</li>
+        <li>Team Development and Management</li>
+        <li>High-pressure Project Management and Coordination.</li>
+        <li>International Travel Coordination (including visas and permits).</li>
+        <li>Fluent French speaker.</li>
+        <li>Prolific baker, specializing in cookies.</li>
       </ul>
 
 

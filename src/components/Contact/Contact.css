@@ -29,7 +29,7 @@
   }
   
   button[type="submit"] {
-    background-color: #70A9FF;
+    background-color: #581c0c;
     border: none;
     color: white;
     cursor: pointer;
@@ -44,6 +44,6 @@
   }
   
   button[type="submit"]:hover {
-    background-color: #4079b6;
-    color: white;
+    background-color: #e9cdcd;
+    color: black;
   }

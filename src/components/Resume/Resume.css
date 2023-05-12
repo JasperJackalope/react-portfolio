@@ -34,3 +34,12 @@
   .resume li {
     margin-bottom: 0.5rem;
   }
+
+  .resume a {
+    background-color: #581c0c;
+  }
+
+  .resume a:hover {
+    background-color: #e9cdcd;
+    color: black;
+  }
